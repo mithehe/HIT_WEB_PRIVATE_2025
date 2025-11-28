@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #4E4441;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+}
+
+.sign a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-right: 12px;
+}
+
+.sign button{
+    margin-bottom: 24px;
+    background-color: #F9C06A;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.background{
+    background-image: url(../week_8/images/coffee_image2.png);
+    background-size: cover;
+    background-position: center;
+    width: 1600px;
+    height: 700px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.bg-content{
+    width: 527px;
+    height: 490px;
+    margin-left: 52px;
+    
+}
+
+.bg-content p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.bg-content button{
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    width: 134px;
+    height: 48px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.discover{
+    display: flex;
+    flex-direction: row;
+}
+
+.discover-content{
+    margin-top: 32px;
+    margin-left: 80px;
+    margin-right: 100px;
+    width: 700px;
+}
+
+.discover h2{
+    color: #603809;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.discover button{
+    background-color: #F9C06A;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.acha h2{
+    color: #603609;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+}
+
+.p0{
+    font-size: 20px;
+    text-align: center;
+    color: #707070;
+}
+
+.special{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
